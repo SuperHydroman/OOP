@@ -2,14 +2,14 @@
 
 abstract class Pokemon implements Config
 {
-    protected $name;
-    protected $username;
-    protected $energyType;
-    protected $hitpoints;
-    protected $health;
-    protected $weakness;
-    protected $resistance;
-    protected $moves;
+    private $name;
+    private $username;
+    private $energyType;
+    private $hitpoints;
+    private $health;
+    private $weakness;
+    private $resistance;
+    private $moves;
     private static $pokemonCount = 0;
 
     public function __construct($name, $username, $energyType, $hitpoints, $health, $weakness, $resistance, $moves)
@@ -24,7 +24,7 @@ abstract class Pokemon implements Config
         $this->resistance = $resistance;
         $this->moves = $moves;
 
-        Pokemon::$pokemonCount++;
+        self::$pokemonCount++;
     }
 
     public function getResult()
@@ -75,7 +75,7 @@ abstract class Pokemon implements Config
 
     public static function getPopulation()
     {
-        return Pokemon::$pokemonCount;
+        return self::$pokemonCount;
     }
 
     public function attack($target, $move)
