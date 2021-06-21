@@ -1,8 +1,9 @@
 <?php
 
-class Pokemon
+abstract class Pokemon implements Config
 {
     protected $name;
+    protected $username;
     protected $energyType;
     protected $hitpoints;
     protected $health;
@@ -11,9 +12,10 @@ class Pokemon
     protected $moves;
     private static $pokemonCount = 0;
 
-    public function __construct($name, $energyType, $hitpoints = 60, $health, $weakness, $resistance, $moves)
+    public function __construct($name, $username, $energyType, $hitpoints = 60, $health, $weakness, $resistance, $moves)
     {
         $this->name = $name;
+        $this->username = $username;
         $this->hitpoints = $hitpoints;
         $this->energyType = $energyType;
         $this->moves = $moves;
@@ -27,7 +29,9 @@ class Pokemon
 
     public function getResult()
     {
-        echo $this->name . " :: " . $this->health . " :: " .$this->energyType . "<br>";
+        echo "<b>Name: </b>" . $this->name . " (" . $this->username . ") <br>",
+             "<b>Health: </b>". $this->health . "<br>",
+             "<b>Energy type: </b>" . $this->energyType;
     }
 
     public function getName()
@@ -71,6 +75,7 @@ class Pokemon
 
     public function attack($target, $move)
     {
+        $result = "<b>" . $this->name . "(" . $this->username.  ")</b> used <b>" . $move->name . "</b> to attack <b>" . $target->name . "(" . $target->username . ")</b> for ";
         if ($target->weakness->type == $this->energyType)
         {
             if ($target->resistance->type == $this->energyType)
@@ -79,15 +84,15 @@ class Pokemon
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    return $damage;
+                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
                 }
                 $target->health = $target->health - $damage;
-                return $damage;
+                echo $result . "<b>" . $damage . "</b> damage<br><br>";
             }
             else {
                 $damage = $move->damage * $target->weakness->mult;
                 $target->health = $target->health - $damage;
-                return $damage;
+                echo $result . "<b>" . $damage . "</b> damage<br><br>";
             }
         }
         else
@@ -98,10 +103,10 @@ class Pokemon
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    return $damage;
+                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
                 }
                 $target->health = $target->health - $damage;
-                return $damage;
+                echo $result . "<b>" . $damage . "</b> damage<br><br>";
             }
             else
             {
@@ -109,10 +114,10 @@ class Pokemon
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    return $damage;
+                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
                 }
                 $target->health = $target->health - $damage;
-                return $damage;
+                echo $result . "<b>" . $damage . "</b> damage<br><br>";
             }
         }
     }

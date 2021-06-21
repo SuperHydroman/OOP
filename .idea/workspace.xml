@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99cc4e39-816e-43fe-9db4-a04bd04c6c59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Move.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Resistance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/resources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php" afterDir="false" />
@@ -18,79 +17,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.39048672">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Move.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Resistance.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/init.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pokemon.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1080">
-                  <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/resources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pokemon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Move.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Resistance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -112,11 +137,13 @@
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/init.php" />
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Resistance.php" />
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php" />
-        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php" />
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Move.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Config.php" />
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php" />
-        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/resources/css/style.css" />
         <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pokemon.php" />
+        <option value="$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php" />
       </list>
     </option>
   </component>
@@ -147,19 +174,6 @@
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
-              <item name="LABS" type="462c0819:PsiDirectoryNode" />
-              <item name="LAB - OOP - Superheroes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
               <item name="OOP - Pokebattle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,6 +182,21 @@
               <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
               <item name="OOP - Pokebattle" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP - Pokebattle" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdrachten" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP - Pokebattle" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +208,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../To-Do Back-end Challenge/includes/datalayer.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -221,18 +251,22 @@
       <workItem from="1623136563730" duration="1527000" />
       <workItem from="1623205740060" duration="57000" />
       <workItem from="1623445807479" duration="567000" />
-      <workItem from="1623660506956" duration="9701000" />
+      <workItem from="1623660506956" duration="10372000" />
+      <workItem from="1623745670838" duration="2662000" />
+      <workItem from="1623768806649" duration="1000" />
+      <workItem from="1623827484941" duration="5984000" />
+      <workItem from="1623974377549" duration="156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26852000" />
+    <option name="totallyTimeSpent" value="36326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13972163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14614561" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,38 +326,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/init.php">
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Charmeleon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php">
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pokemon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="324">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pikachu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Move.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="180">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -334,17 +368,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php">
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Weakness.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="54">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Pokemon.php">
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="72">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/classes/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdrachten/OOP - Pokebattle/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
