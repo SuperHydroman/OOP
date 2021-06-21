@@ -24,16 +24,18 @@ $p2 = new Charmeleon("Henk de potvis");
             <div class="col-lg-6">
                 <?php
                     $p2->getResult();
-                    echo $spacing;
-                    $p1->attack($p2, $p1->getMoves()[0]);
+                    echo $spacing,
+                         "<b>" . $p1->getName() . "(" . $p1->getUsername() . ") </b> used <b>" . $p1->getMoves()[0]->name . "</b> to attack <b>" . $p2->getName() . "(" . $p2->getUsername() . ")</b> for <b>" . $p1->attack($p2, $p1->getMoves()[0]) . "</b> damage",
+                         $spacing;
                     $p2->getResult();
                 ?>
             </div>
             <div class="col-lg-6 right">
                 <?php
                     $p1->getResult();
-                    echo $spacing;
-                    $p2->attack($p1, $p2->getMoves()[1]);
+                    echo $spacing,
+                         "<b>" . $p2->getName() . "(" . $p2->getUsername() . ") </b> used <b>" . $p2->getMoves()[1]->name . "</b> to attack <b>" . $p1->getName() . "(" . $p1->getUsername() . ")</b> for <b>" . $p2->attack($p1, $p2->getMoves()[0]) . "</b> damage",
+                         $spacing;
                     $p1->getResult();
                 ?>
             </div>

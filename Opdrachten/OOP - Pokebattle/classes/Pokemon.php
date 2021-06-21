@@ -12,7 +12,7 @@ abstract class Pokemon implements Config
     protected $moves;
     private static $pokemonCount = 0;
 
-    public function __construct($name, $username, $energyType, $hitpoints = 60, $health, $weakness, $resistance, $moves)
+    public function __construct($name, $username, $energyType, $hitpoints, $health, $weakness, $resistance, $moves)
     {
         $this->name = $name;
         $this->username = $username;
@@ -37,6 +37,11 @@ abstract class Pokemon implements Config
     public function getName()
     {
         return $this->name;
+    }
+
+    public function getUsername()
+    {
+        return $this->username;
     }
 
     public function getEnergyType()
@@ -75,7 +80,6 @@ abstract class Pokemon implements Config
 
     public function attack($target, $move)
     {
-        $result = "<b>" . $this->name . "(" . $this->username.  ")</b> used <b>" . $move->name . "</b> to attack <b>" . $target->name . "(" . $target->username . ")</b> for ";
         if ($target->weakness->type == $this->energyType)
         {
             if ($target->resistance->type == $this->energyType)
@@ -84,15 +88,15 @@ abstract class Pokemon implements Config
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                    return $damage;
                 }
                 $target->health = $target->health - $damage;
-                echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                return $damage;
             }
             else {
                 $damage = $move->damage * $target->weakness->mult;
                 $target->health = $target->health - $damage;
-                echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                return $damage;
             }
         }
         else
@@ -103,10 +107,10 @@ abstract class Pokemon implements Config
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                    return $damage;
                 }
                 $target->health = $target->health - $damage;
-                echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                return $damage;
             }
             else
             {
@@ -114,10 +118,10 @@ abstract class Pokemon implements Config
                 if ($damage < 0)
                 {
                     $damage = 0;
-                    echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                    return $damage;
                 }
                 $target->health = $target->health - $damage;
-                echo $result . "<b>" . $damage . "</b> damage<br><br>";
+                return $damage;
             }
         }
     }
